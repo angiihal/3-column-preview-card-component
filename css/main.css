@@ -1,0 +1,93 @@
+/* General Styles */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+body,
+button {
+    background-color: #f2f2f2;
+    opacity: 0.95;
+}
+
+h1 {
+    color: #f2f2f2;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3em;
+    opacity: 0.95;
+    margin: 0;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+p {
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+#column-one {
+    background-color: #e28525;
+    border-radius: 10px 10px 0 0;
+}
+
+#column-two {
+    background-color: #016972;
+}
+
+#column-three {
+    background-color: #00403f;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Mobile Styles */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 85px 25px 40px 25px;
+    width: 75%;
+
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 45px 50px;
+    width: 87%;
+}
+
+.text-container {
+    width: 85%;
+}
+
+.button-container {
+    padding-top: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    mix-blend-mode: screen;
+    padding: 15px 25px;
+    text-transform: capitalize;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 22px;
+}
+
